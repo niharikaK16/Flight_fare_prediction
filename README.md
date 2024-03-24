@@ -1,5 +1,3 @@
-def generate_readme():
-    readme_content = """
 # Flight Fare Prediction
 
 This project focuses on predicting flight fares using machine learning techniques.
@@ -32,13 +30,3 @@ The dataset used in this project contains historical flight data including depar
 
 Contributions are welcome! If you have any suggestions, improvements, or find any issues, feel free to open an issue or create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-    """
-
-    with open("README.md", "w") as readme_file:
-        readme_file.write(readme_content)
-
-# Call the function to generate README.md
-generate_readme()
